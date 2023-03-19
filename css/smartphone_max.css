@@ -1,0 +1,142 @@
+@media screen and (max-width: 767px) {
+    .page {
+        position: relative;
+    }
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        position: fixed;
+        align-items: flex-start;
+        top: 0;
+        left: -50%;
+        width: 50%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.85);
+        z-index: 6;
+        transition: .5s;
+    }
+    .hidden-menu {
+        left: 0;
+        transition: .5s;
+    }
+    .nav-links ul li {
+        padding: 15px 0;
+    }
+    .form form .top {
+        width: 100%;
+    }
+    .form form .user_email {
+        margin-top: 16px;
+    }
+    header .logo-menu {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+   
+    
+    
+    
+    .wrap-menu-btn {
+        position: absolute;
+        width: 200%;
+        height: 70px;
+        left: 100%;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+    .logo-menu #menu_btn {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 33px;
+        height: 13px;
+        left: 20px;
+        top: 27px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .logo-menu #menu_btn span {
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+    }
+    
+    .main-img {
+        width: 100%;
+        min-height: 540px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-image: url(../img-main/image11.png);
+    }
+    
+    header .header-top {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: none;
+    }
+    .header-top .main-text-btn h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .header-top .main-text-btn {
+        margin-top: 0;
+    }
+    .main-btn {
+        text-align: right;
+    }
+    .projects .sab-header .line {
+        width: 151px;
+    }
+    .skills .wrap-skills {
+        display: block;
+        position: relative;
+    }
+    .wrap-skills .skills-figures {
+        height: 391px;
+        width: 386px;
+        z-index: 0;
+    }
+    .wrap-skills .aside-skills {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        z-index: 1;
+    }
+    .aside-skills .inner {
+        background-color: rgba(40, 44, 51, 0.9);
+    }
+    .contacts-main .text {
+        text-align: center;
+        min-width: 150px;
+    }
+    .contacts .contacts-main {
+        max-width: 400px;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts-message {
+        margin-top: 30px;
+        max-width: 300px;
+    }
+    
+    
+    
+    
+    
+    
+}

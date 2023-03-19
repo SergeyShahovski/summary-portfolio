@@ -1,0 +1,16 @@
+@media screen and (max-width: 1280px) {
+    .square, .points-2, .figure, .about-square, .points-row, .points-colum-3 {
+        display: none;
+    }
+    .block {
+        max-width: 322px;
+    }
+}
+
+
+.btn-up {
+  right: 0;
+  
+}
+
+

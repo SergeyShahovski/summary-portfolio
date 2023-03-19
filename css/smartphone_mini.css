@@ -1,0 +1,83 @@
+@media screen and (max-width: 479px) {
+    .form form {
+        padding: 32px 16px;
+    }
+    .main-text-btn p {
+        text-align: center;
+    }
+    .header-top .main-img .ava-img {
+    }
+    .header-top .main-img .points-img {
+        position: absolute;
+        top: 182px;
+        left: 260px;
+        z-index: 2;
+    }
+    .header-top .main-img {
+        min-height: 400px;
+        background-size: cover;
+    }
+    .header .name-text {
+        margin-top: 80px;
+    }
+    .header .name-text p {
+        font-size: 16px;
+    }
+    .header .name-text span {
+        font-size: 20px;
+    }
+    .projects .sab-header .line {
+        width: 19px;
+    }
+    .block {
+        margin-right: 0;
+    }
+    .sab-header .line {
+        display: none;
+    }
+    .aside-skills .inner {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .wrap-skills .skills-figures {
+        position: relative;
+        width: 100%;
+        height: 562px;
+        margin: 0;
+    }
+    .page .about-me {
+        padding-top: 64px;
+    }
+    .about-me-main .about-me-img {
+        width: 100%;
+        height: 100%;
+    }
+    .about-me-main .about-me-img img {
+        width: 100%;
+    }
+    .about-me .about-me-img span {
+        max-width: 271px;
+    }
+    
+    
+    
+    
+    .end {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    info-end .logo-futer {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .info-text p {
+        margin: 16px 0;
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    
+}
