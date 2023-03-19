@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+   <div class="calculator">
+       <div class="results">
+           <div id="result"></div>
+           <div id="expression"></div>
+       </div>
+       <div class="keys">
+           <div class="clears keys_number_grey">
+               <span id="ce">CE</span>
+               
+               <span id="clear">AS</span>
+           </div>
+           <div class="operations keys_number_orange">
+               <span class="operation" id="/">&#247;</span>
+               <span class="operation" id="*">&#215;</span>
+               <span class="operation" id="-">&#8722;</span>
+               <span class="operation" id="+">&#43;</span>
+               <span class="equals" id="=">=</span>
+           </div>
+           <div class="numbers keys_number_black">
+               <span class="number" id="7">7</span>
+               <span class="number" id="8">8</span>
+               <span class="number" id="9">9</span>
+               <span class="number" id="4">4</span>
+               <span class="number" id="5">5</span>
+               <span class="number" id="6">6</span>
+               <span class="number" id="1">1</span>
+               <span class="number" id="2">2</span>
+               <span class="number" id="3">3</span>
+               <div class="null">
+                   <span class="number" id="0">0</span>
+               </div>
+               <span class="number" id=".">&#46;</span>
+           </div>
+       </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>

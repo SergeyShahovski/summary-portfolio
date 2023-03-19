@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Asap Condensed', sans-serif;
+
+}
+.calculator {
+    margin: 0 auto;
+    padding: 30px 0;
+    margin-top: 50px;
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: rgb(94,94,94);
+    background: linear-gradient(180deg, rgba(94,94,94,1) 8%, rgba(45,45,45,1) 64%);
+}
+#result {
+    padding: 0 10px;
+    width: 100%;
+    height: 60px;
+    font-size: 42px;
+    text-align: right;
+    color: #fff;
+    background: rgba(255, 255, 255, 0);
+    caret-color: transparent;
+}
+#expression {
+    padding: 0 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    outline: none;
+    border: none;
+    color: #bcbbbb;
+    background: rgba(255, 255, 255, 0);
+    caret-color: transparent;
+}
+.number input::placeholder {
+    color: #fff;
+}
+.number, span {
+    display: block;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    border-radius: 50%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #fff;
+    cursor: pointer;
+}
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.keys_number_grey {
+    width: 240px;
+    display: flex;
+}
+.keys_number_grey span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    background-color: #b7b7b7;
+}
+.keys_number_grey span:active {
+    background-color: #dddddd;
+}
+.keys_number_black {
+    position: absolute;
+    top: 80px;
+    width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.keys_number_black .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #292929;
+}
+.keys_number_black span:active {
+    background-color: #363636;
+}
+
+.null .number {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 22px;
+    width: 140px;
+    border-radius: 30px;
+}
+.keys_number_orange {
+    display: flex;
+    flex-direction: column;
+}
+.keys_number_orange span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #ea7e00;
+}
+.keys_number_orange span:active {
+    background-color: #ff9a25;
+}
+
+
+
+
+
